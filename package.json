@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.9",
-    "match-recursive": "^0.1.1"
+    "express": "^4.16.3",
+    "match-recursive": "^0.1.1",
+    "path": "^0.12.7"
   }
 }
