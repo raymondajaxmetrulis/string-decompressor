@@ -1,0 +1,15 @@
+{
+  "name": "decompressor",
+  "version": "1.0.0",
+  "description": "String calculator. Decompresses strings with the format \"number[string]...\", multiplying the string within the brackets by the number preceding the bracket, while accounting for recursion within brackets. Ex. \"2[abc]3[a2[b]]def\" becomes \"abcabcabbabbabbdef\"",
+  "main": "decompressor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "match-recursive": "^0.1.1"
+  }
+}
