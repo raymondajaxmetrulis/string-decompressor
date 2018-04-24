@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
+    "less-middleware": "^2.2.1",
     "match-recursive": "^0.1.1",
     "path": "^0.12.7",
     "xregexp": "^4.1.1"

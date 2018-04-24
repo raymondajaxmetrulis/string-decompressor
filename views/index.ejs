@@ -3,6 +3,12 @@
 		
 	</head>
 	<body>
-		<h1>Hello</h1>
+		<h1>Recursive string decompressor</h1>
+		<p>Ex. converts 4[abc]2[a3[b]]ccc to abcabcabcabcabbbabbbccc</p>
+		<form action="/" method="post" enctype="application/x-www-form-urlencoded">
+		    <label for="enter_str">Enter compressed string: </label>
+		    <input id="enter_str" type="text" name="compression">
+		    <button type="submit">Decompress</button>
+		</form>
 	</body>
 </html>
