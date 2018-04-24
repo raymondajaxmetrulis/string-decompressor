@@ -1,14 +1,15 @@
 <html>
 	<head>
-		
+		<link rel="stylesheet" href="/stylesheets/main.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Recursive string decompressor</h1>
-		<p>Ex. converts 4[abc]2[a3[b]]ccc to abcabcabcabcabbbabbbccc</p>
+		<h1 id="title">Recursive string decompressor</h1>
+		<p id="example">Ex. converts 4[abc]2[a3[b]]ccc to abcabcabcabcabbbabbbccc</p>
 		<form action="/" method="post" enctype="application/x-www-form-urlencoded">
-		    <label for="enter_str">Enter compressed string: </label>
+		    <label id="label" for="enter_str">Enter compressed string: </label>
 		    <input id="enter_str" type="text" name="compression">
-		    <button type="submit">Decompress</button>
+		    <button id="button" type="submit">Decompress</button>
 		</form>
 	</body>
 </html>
